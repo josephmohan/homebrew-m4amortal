@@ -1,7 +1,8 @@
 class M4amortal < Formula
   desc "Convert .m4a audio files to .wav from the command line"
   homepage "https://github.com/josephmohan/m4amortal"
-  head "https://github.com/josephmohan/m4amortal.git", branch: "main"
+  url "https://github.com/josephmohan/m4amortal/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
 
   depends_on "ffmpeg"
 
